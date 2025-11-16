@@ -9,6 +9,9 @@ const User = new Schema({
     email:{
         type: String,
         required: true
+    },
+    wallet:{
+        type: Number
     }
 })
 module.exports = mongoose.model('User', User);
